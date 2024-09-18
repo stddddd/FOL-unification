@@ -24,10 +24,10 @@ fol = FOL(operation, argument)
 ```
 其中，operation为字符串类型，表示FOL语句的谓词或函词；argument是一个列表，表示FOL语句的变量。列表中元素可以为变量variable，常量constant，或FOL类，以实现FOL语句的嵌套。
 
-在上面代码中，<b>fol1</b>表示$ Konws(John, x) $，<b>fol2</b>表示$ Konws(y,Mother(y)) $。
+在上面代码中，<b>fol1</b>表示$$Konws(John, x)$$，<b>fol2</b>表示$$Konws(y,Mother(y))$$。
 
 ## 输出数据
-代码的输出只有一行，表示两条FOL语句的合一置换。对于代码中给出的数据，输出为$ \{y/John,x/Know(z,Mother(John))\} $。
+代码的输出只有一行，表示两条FOL语句的合一置换。对于代码中给出的数据，输出为$$\{y/John,x/Know(z,Mother(John))\}$$。
 
 可以通过改变<b>fol1</b>和<b>fol2</b>来得到指定FOL语句的合一置换。
 
